@@ -1,5 +1,6 @@
-# Banking Application (Java)
+> “This repository contains a Java console-based Banking Application built as part of an assignment. It demonstrates object-oriented programming concepts (classes, objects, encapsulation) using an Account class and an interactive BankingApp interface. Users can create accounts, deposit/withdraw money, view details, and update contact information. The app uses array-based storage for up to 200 accounts with input validation.”
 
+# Banking Application (Java)
 A simple console-based **Banking Application** written in Java.  
 Implements `Account` class and a user interface to manage multiple bank accounts.
 

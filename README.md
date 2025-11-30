@@ -1,27 +1,47 @@
-> “This repository contains a Java console-based Banking Application built as part of an assignment. It demonstrates object-oriented programming concepts (classes, objects, encapsulation) using an Account class and an interactive BankingApp interface. Users can create accounts, deposit/withdraw money, view details, and update contact information. The app uses array-based storage for up to 200 accounts with input validation.”
+# Calculator Application (Java)
 
-# Banking Application (Java)
-A simple console-based **Banking Application** written in Java.  
-Implements `Account` class and a user interface to manage multiple bank accounts.
+A simple console-based **Calculator Application** demonstrating method overloading in Java.
 
 ## Features
-- Create new accounts with name, email, phone number, initial deposit.
-- Deposit and withdraw money with input validation.
-- Display account details.
-- Update contact details (email and phone).
-- Auto-incrementing account numbers.
-- Array-based storage for up to 200 accounts.
+- Demonstrates method overloading with `add(int,int)`, `add(double,double)`, `add(int,int,int)`.
+- Implements `subtract(int,int)`, `multiply(double,double)`, and `divide(int,int)` with divide-by-zero handling.
+- Menu-driven user interface (`CalculatorApp`) for interactive use.
+- Input validation and exception handling for robust behavior.
 
-## How to Run
-1. Clone or download this repository.
-2. Compile the code:
-   ```bash
-   javac Account.java BankingApp.java
-   ```
-3. Run the application:
-   ```bash
-   java BankingApp
-   ```
+## Files
+- `Calculator.java`  — Contains overloaded arithmetic methods.
+- `CalculatorApp.java` — Console UI that uses `Calculator` methods.
+- `README.md` — This file.
 
-## Requirements
-- Java 8 or later installed.
+## How to Compile & Run
+1. Compile both files:
+```bash
+javac Calculator.java CalculatorApp.java
+```
+2. Run the application:
+```bash
+java CalculatorApp
+```
+
+## Sample Interaction
+```
+Welcome to the Calculator Application!
+1. Add Numbers
+2. Subtract Numbers
+3. Multiply Numbers
+4. Divide Numbers
+5. Exit
+Enter your choice: 1
+Choose type:
+1. Add two integers
+2. Add three integers
+3. Add two doubles
+Enter choice: 1
+Enter first integer: 10
+Enter second integer: 20
+Result: 30
+```
+
+## Notes for Submission
+- This solution follows the assignment requirements for method overloading and input handling.
+- Make sure to upload both `.java` files to your GitHub repo and submit the repo link to LMS before the deadline.
